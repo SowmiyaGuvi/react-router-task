@@ -11,9 +11,3 @@ Development Process:
 * Testing: Ensure that navigation and content rendering work correctly.
 * Deployment: Deploy the app to a hosting service for live access.
 
-
-
-
-
-
->>>>>>> aa3211e41d59c084665255b434b1b5abe1790a53
