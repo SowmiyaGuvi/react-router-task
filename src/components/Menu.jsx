@@ -1,16 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import desiredNameOfAsset from './assests/image.png';
+
 function Menu() {
   const [activeTab, setActiveTab] = useState('/');
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
-
-  const assets = {
-    desiredNameOfAsset
-  }
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
