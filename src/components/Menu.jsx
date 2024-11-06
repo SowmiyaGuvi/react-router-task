@@ -20,7 +20,7 @@ function Menu() {
           className={`navbar-brand ps-4 ${activeTab === '/' ? 'active' : ''}`}
           onClick={() => handleTabClick('/')}
         >
-          <img width="110" height="53" src= {assets.desiredNameOfAsset} className="img-fluid" alt="Guvi-logo" />
+          <img width="110" height="53" src= {assets} className="img-fluid" alt="Guvi-logo" />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
